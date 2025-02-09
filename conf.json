@@ -1,0 +1,41 @@
+{
+    "villes": [
+      {
+        "id": 1,
+        "ville": "Tourcoing"
+      },
+      {
+        "id": 2,
+        "ville": "Paris"
+      },
+      {
+        "id": 3,
+        "ville": "Lyon"
+      },
+      {
+        "id": 4,
+        "ville": "Stasbourg"
+      },
+      {
+        "id": 5,
+        "ville": "Roubaix"
+      },
+      {
+        "id": 6,
+        "ville": "Bordeaux"
+      },
+      {
+        "id": 7,
+        "ville": "Watrelos"
+      },
+      {
+        "id": 8,
+        "ville": "Toulouse"
+      },
+      {
+        "id":9,
+        "ville": "Perpignan"
+      }
+    ]
+  }
+  

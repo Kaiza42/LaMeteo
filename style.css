@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* Mon background  */
+    background: url('asset/fondecran.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    /*  la couleur du texte de la page  */
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* le titre meteo  */
+#titreMeteo {
+    /* le placement  */
+    text-align: center;
+    /* la taille  */
+    font-size: 2.5em;
+    /* espace avec la box central */
+    margin-bottom: 20px;
+}
+
+/* le conteneur des information afficher */
+#corps {
+    /* la coulur du background de mon rectangle  */
+    background-color: rgba(47, 79, 79, 0.8);
+    /* les bord arrondis */
+    border-radius: 15px;
+    /* un peu d'espace  */
+    padding: 20px;  
+    margin-bottom: 10px;
+    width: 100%;
+    /* fixe la taile max  */
+    max-width: 350px;
+    /* le texte centrer  */
+    text-align: center;
+}
+
+.affichageMeteo {
+    /* taille des lettre  */
+    font-size: 1.2em;
+    margin: 10px ;
+}
+
+/* l'heure de la mise a jour */
+#derniereMiseAJour {
+    /* le texte en plus petit pour marquer son importance par rapport au autre infos */
+    font-size: 0.9em;
+}
+/* Reponsive */
+@media (max-width: 600px) {
+    #titreMeteo {
+        font-size: 2em;
+    }
+
+    .affichageMeteo {
+        font-size: 1em;
+    }
+
+    #corps {
+        padding: 15px; 
+    }
+}
