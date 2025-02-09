@@ -15,6 +15,6 @@ Dans le cadre de ma candidature à la formation **Concepteur Développeur d'Appl
 - Langages : HTML, CSS, JavaScript
 
 
-#### le rendue : 
+#### Le visuel : 
 
 <img src="asset\ecranTemp.png" alt="">
